@@ -1,0 +1,159 @@
+body{
+	background-color: black;
+}
+
+a:hover{
+	text-decoration: inherit !important;
+	color:inherit !important;
+}
+
+.fullWidthWrapper{
+	width: 100%;
+}
+
+.fullWidthWrapper img{
+	width: 100%;
+}
+
+.abs{
+	position: absolute;
+}
+
+.rel{
+	position: relative;
+}
+
+.bgcFix{
+	background-color: #939393;
+}
+
+.center{
+	text-align: center;
+	padding-left:0 !important;
+}
+
+.shadow{
+	border:solid;
+	border-color:black;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-bottom-width:4px;
+	border-right-width:4px;
+}
+
+.navBar{
+	padding-top:0;
+	display: block;
+	top:0;
+	position: fixed;
+	z-index:20;
+	background-image:url("../img/transBg.png");
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.navBar:hover{
+	cursor:pointer;
+	cursor:hand;
+}
+
+.navBar h2{
+	display: inline-block;
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+	background-color: #303030;
+	color:white;
+	padding:10px;
+	margin-top:15px;
+	margin-left:28px;
+	margin-right:28px;
+}
+
+.logoWrapper{
+	position: relative;
+	width: 100%;
+}
+
+.logo img{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+	height:auto;
+}
+
+.meatballMenu{
+	background-color: #939393;
+	padding-top:20px;
+}
+
+.meatballHeader{
+	background-color:#535353;
+	color:#E1E1E1;
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+	font-size:40px;
+	padding-left:20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:20px;
+}
+
+.meatballContent{
+	font-size:22px;
+	margin:20px;
+	margin-left:40px;
+	margin-right:0px;
+	color:black;
+	background-color: #E4E4E4;
+	padding:8px;
+	top:5px;
+	left:5px;
+	font-family: 'Cutive Mono', Serif;
+}
+
+.meatballContent strong{
+	font-size:22px;
+	font-weight:700;
+}
+
+.spaceTop{
+	margin-top:50px;
+}
+
+.pressItem{
+	display: block;
+	background-color: #535353;
+	height: 260px;
+	margin-top:30px;
+	max-width:260px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+/*	padding-left:10px;
+	padding-right:10px;*/
+}
+
+.pressItem h2{
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+	font-size:24px;
+	margin:0;
+	width: 100%;
+	color:#d0d0d0;
+	margin-left:25px;
+
+}
+
+.pressItem h3{
+	background-color: #404040;
+	color:#f0f0f0;
+	margin-top:10px;
+	padding:10px;
+	font-size:16px;
+	height:167px;
+		border-top:solid;
+	border-bottom:solid;
+	border-width:1px;
+	border-color:#d0d0d0;
+	font-family: 'Cutive Mono', Serif;
+}
