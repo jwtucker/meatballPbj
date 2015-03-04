@@ -18,4 +18,9 @@ $('#pressLink').click(function(){
 	$("#press").show();
 });
 
+$('#bioLink').click(function(){
+	$(".window").hide();
+	$("#bio").show();
+});
+
 });
