@@ -1,9 +1,21 @@
 $(document).ready(function(){
 
-	$('.navBar').css('left',$('#jumbotron').offset().left);
+$(".window").hide();
+$('#home').show();
 
-	$(window).resize(function(){
-		$('.navBar').css('left',$('#jumbotron').offset().left);
-	})
+$('#homeLink').click(function(){
+	$(".window").hide();
+	$("#home").show();
+});
+
+$('#menuLink').click(function(){
+	$(".window").hide();
+	$("#menu").show();
+});
+
+$('#pressLink').click(function(){
+	$(".window").hide();
+	$("#press").show();
+});
 
 });
