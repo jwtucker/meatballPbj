@@ -1,26 +1,66 @@
+var currentSection = '#home';
+var currentSite = 'Meatball';
+
 $(document).ready(function(){
 
-$(".window").hide();
-$('#home').show();
-
-$('#homeLink').click(function(){
 	$(".window").hide();
-	$("#home").show();
+	$(".pbjMain").hide();
+	$('#home' + currentSite).show();
+
+	checkLinks();
+
+	$('.pbjBarWrapper').click(function(){
+		currentSite = 'Pbj';	
+		$('.meatballMain').fadeOut(1000, function(){
+			$('.window').hide();
+			$(currentSection + currentSite).show();
+			$('.pbjMain').fadeIn(600);
+		});
+	});
+
+	$('.meatballBarWrapper').click(function(){
+		currentSite = 'Meatball';
+		$('.pbjMain').fadeOut(1000, function(){
+			$('.window').hide();
+			$(currentSection + currentSite).show();
+			$('.meatballMain').fadeIn(600);
+		});
+	});
+
+
+
 });
 
-$('#menuLink').click(function(){
-	$(".window").hide();
-	$("#menu").show();
-});
+function checkLinks(){
 
-$('#pressLink').click(function(){
-	$(".window").hide();
-	$("#press").show();
-});
+	$('.homeLink').click(function(){
+		$(".window").hide();
+		$("#home" + currentSite).show();
+		currentSection = "#home";
+	});
 
-$('#bioLink').click(function(){
-	$(".window").hide();
-	$("#bio").show();
-});
+	$('.menuLink').click(function(){
+		$(".window").hide();
+		console.log(currentSite);
+		$("#menu" + currentSite).show();
+		currentSection = "#menu";
+	});
 
-});
+	$('.pressLink').click(function(){
+		$(".window").hide();
+		$("#press" + currentSite).show();
+		currentSection = "#press";
+	});
+
+	$('.bioLink').click(function(){
+		$(".window").hide();
+		$("#bio" + currentSite).show();
+		currentSection = "#bio";
+	});
+
+	$('.contactLink').click(function(){
+		$(".window").hide();
+		$("#contact" + currentSite).show();
+		currentSection = "#contact";
+	});
+}
