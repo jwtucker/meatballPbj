@@ -12,6 +12,10 @@ a:visited{
 	color:inherit !important;	
 }
 
+.purple{
+	background-color:#BE90D4;
+}
+
 .fullWidthWrapper{
 	width: 100%;
 }
@@ -76,24 +80,26 @@ a:visited{
 	padding-top:270px;
 }
 
+#contactMeatball{
+	padding-top: 100px;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
 #homePbj{
 	padding-top:60px;
-	background-color: #dddddd;
 }
 
 #menuPbj{
 	padding-top:40px;
-	background-color: #dddddd;
 }
 
 #pressPbj{
 	padding-top:40px;
-	background-color: #dddddd;
 }
 
 #bioPbj{
 	padding-top:270px;
-	background-color: #dddddd;
 }
 
 .navBarWrapper{
@@ -269,3 +275,52 @@ a:visited{
 	border-color:black;
 	font-family: 'Cutive Mono', Serif;
 }
+
+
+
+.meatballLabel{
+	display: block;
+	/*font-family: 'Lato',sans-serif;*/
+	font-family: 'Cutive Mono', Serif;	
+}
+
+.meatballInput{
+	display: block;
+	width: 100%;
+	border:none;
+	border-bottom:solid;
+	border-width:1px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height:32px;
+	font-size:26px;
+	font-family: 'Cutive Mono', Serif;	
+}
+
+.meatballButton{
+	background-color: white;
+	border-width:1px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:22px;
+	padding:10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: 'Cutive Mono', Serif;
+	font-weight: 700;
+	margin-top:30px;
+}
+
+.meatballResponse{
+	font-family: 'Cutive Mono', Serif;
+	font-size:18px;
+}
+
+.mc-field-group{
+	background-color: none;
+}
+
+
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }

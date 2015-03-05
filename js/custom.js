@@ -15,11 +15,13 @@ $(document).ready(function(){
 			$('.window').hide();
 			$(currentSection + currentSite).show();
 			$('.pbjMain').fadeIn(600);
+			$('body').toggleClass('purple',600);
 		});
 	});
 
 	$('.meatballBarWrapper').click(function(){
 		currentSite = 'Meatball';
+		$('body').toggleClass('purple',1000);
 		$('.pbjMain').fadeOut(1000, function(){
 			$('.window').hide();
 			$(currentSection + currentSite).show();
