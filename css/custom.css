@@ -197,6 +197,9 @@ a:visited{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	padding:20px;
+	width: 150px;
+	background-image:url('../img/transBg.png');
 }
 
 .iconWrapper img{
