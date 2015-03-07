@@ -1,11 +1,12 @@
 var currentSection = '#home';
-var currentSite = 'Meatball';
+var currentSite = 'Pbj';
 
 $(document).ready(function(){
 
 	$(".window").hide();
-	$(".pbjMain").hide();
+	$(".meatballMain").hide();
 	$('#home' + currentSite).show();
+	$('body').toggleClass('purple',100)
 
 	checkLinks();
 

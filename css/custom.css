@@ -50,6 +50,13 @@ a:visited{
 .shadow{
 }
 
+.outline{
+	border-bottom: solid;
+	border-right: solid;
+	border-width:4px;
+	border-color: black;
+}
+
 .underline{
 	border-bottom:solid;
 	border-width:2px;
@@ -93,7 +100,7 @@ a:visited{
 }
 
 #menuPbj{
-	padding-top:40px;
+	padding-top:90px;
 }
 
 #pressPbj{
@@ -112,7 +119,6 @@ a:visited{
 .navBar{
 	/*position: fixed;*/
 	z-index:20;
-	background-image:url("../img/transBg.png");
 	padding-top:30px;
 	padding-bottom:30px;
 }
@@ -132,6 +138,8 @@ a:visited{
 }
 
 .pbjBarWrapper{
+	cursor:hand;
+	cursor:pointer;
 	position: relative;
 	top:700px;
 	width: 100%;
@@ -156,11 +164,14 @@ a:visited{
 	height: auto;
 }
 
+
 .meatballBarWrapper{
+	cursor:hand;
+	cursor:pointer;
 	position: relative;
 	top:700px;
-	width: 100%;
-	max-width:65px;
+	width: 50%;
+	min-width:40px;
 	height: 280px;
 	padding-top:40px;
 	padding-bottom:40px;
@@ -169,16 +180,18 @@ a:visited{
 }
 
 .meatballBar{
-	width: 90%;
+	min-width: 40px;
 	height: 100%;
-	background-color: black;
+	/*background-color: #86e2d5;*/
+		background-image: url(../img/transBgBlack.png);
+
 }
 
 .meatballBar img{
 	position: relative;
-	top: 64px;
-	width: 100%;
-	height: auto;
+	top: 30%;
+	width: auto;
+	height: 70%;
 }
 
 .logoWrapper{
@@ -213,6 +226,11 @@ a:visited{
 	padding-bottom:20px;
 }
 
+.pbjMenu{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
 .meatballHeader{
 	color:#000000;
 	font-family: 'Questrial', sans-serif;
@@ -241,6 +259,51 @@ a:visited{
 .meatballContent strong{
 	font-size:22px;
 	font-weight:00;
+}
+
+.pbjFooter{
+	width: 100%;
+	height: 100px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-image: url(../img/transBgBlackLight.png);
+}
+
+.pbjFooter img{
+	height: 100%;
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pbjHeader{
+	font-family:"Medula One", Cursive;
+	color: #eb9532;
+	font-size:45px;
+	padding:15px;
+	background-image: url(../img/transBgBlack.png);
+}
+
+.pbjContent{
+	font-size:22px;
+	margin:20px;
+	margin-left:0px;
+	margin-right:0px;
+	color:black;
+	padding:15px;
+	top:5px;
+	left:5px;
+	font-family: 'Roboto Slab', Serif;
+	font-weight:300;
+	background-image: url(../img/transBgBlackLight.png);
+	color:#dfdfdf;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.pbjContent strong{
+	color:#86e2d5;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
 
 .spaceTop{
