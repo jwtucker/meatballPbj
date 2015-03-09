@@ -15,7 +15,7 @@ a:visited{
 }
 
 .purple{
-	background-color:#BE90D4;
+	background-color:#89C4F4;
 }
 
 .fullWidthWrapper{
@@ -111,30 +111,56 @@ a:visited{
 	padding-top:270px;
 }
 
-.navBarWrapper{
+.meatballNavBarWrapper{
 	position:relative;
 	top:120px;
 }
 
-.navBar{
+.meatballNavBar{
 	/*position: fixed;*/
 	z-index:20;
 	padding-top:30px;
 	padding-bottom:30px;
 }
 
-.navBar:hover{
+.meatballNavBar:hover{
 	cursor:pointer;
 	cursor:hand;
 }
 
-.navBar h2{
+.meatballNavBar h2{
 	font-family: "Questrial", sans-serif;
 	background-color: black;
 	color:white;
 	padding:10px;
 	padding-left:6px;
 	font-size:17px;
+}
+
+.pbjNavBarWrapper{
+	position:relative;
+	top:120px;
+}
+
+.pbjNavBar{
+	/*position: fixed;*/
+	z-index:20;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.pbjNavBar:hover{
+	cursor:pointer;
+	cursor:hand;
+}
+
+.pbjNavBar h2{
+	font-family: "Medula One", cursive;
+	background-image: url(../img/transBgBlack.png);	
+	color:#eb9532;
+	padding:10px;
+	padding-left:6px;
+	font-size:30px;
 }
 
 .pbjBarWrapper{
@@ -297,13 +323,13 @@ a:visited{
 	font-family: 'Roboto Slab', Serif;
 	font-weight:300;
 	background-image: url(../img/transBgBlackLight.png);
-	color:#dfdfdf;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	color:#ffffff;
+	text-shadow: 1px 1px 2px rgba(20, 40, 20, 1);
 }
 
 .pbjContent strong{
-	color:#86e2d5;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	color:#9A12B3;
+	text-shadow: 1px 1px 1px rgba(40, 80, 40, 1);
 }
 
 .spaceTop{
@@ -341,6 +367,42 @@ a:visited{
 	border-width:1px;
 	border-color:black;
 	font-family: 'Cutive Mono', Serif;
+}
+
+.pbjPressItem{
+	display: block;
+	height: 125px;
+	margin-top:30px;
+	max-width:260px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+	margin-bottom: 15px
+}
+
+.pbjPressItem h2{
+	background-image: url(../img/transBgBlack.png);
+	font-family: "Medula One", cursive;
+	font-size:30px;
+	margin:0;
+	width: 100%;
+	color:#BE90D4;
+	padding:6px;
+	padding-left: 10px;
+	text-shadow: 1px 1px 2px rgba(20, 40, 20, 1);
+}
+
+.pbjPressItem h3{
+	background-image: url(../img/transBgBlackLight.png);
+	color:white;
+	margin-top:0px;
+	padding:10px;
+	font-size:18px;
+	height:100%;
+	border-width:1px;
+	border-color:black;
+	font-family: 'Roboto Slab', Serif;
+	text-shadow: 1px 1px 2px rgba(20, 40, 20, 1);
 }
 
 
