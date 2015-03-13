@@ -1,4 +1,9 @@
 /*Medula one, Righteous, Futura*/
+@font-face {
+    font-family: Italian;
+    src: url(../fonts/italian.otf);
+}
+
 
 body{
 	background-color: black;
@@ -15,7 +20,9 @@ a:visited{
 }
 
 .purple{
-	background-color:#89C4F4;
+	/*background-color:#89C4F4;*/
+	background-image: url(../img/pentagon.png);
+	
 }
 
 .fullWidthWrapper{
@@ -70,6 +77,10 @@ a:visited{
 
 .halfWidth{
 	width: 50%;
+}
+
+.lightBg{
+	background-image:url('../img/transBgBlackLight.png');
 }
 
 
@@ -137,6 +148,13 @@ a:visited{
 	font-size:17px;
 }
 
+.meatballNavBar img{
+	width:80px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .pbjNavBarWrapper{
 	position:relative;
 	top:120px;
@@ -163,6 +181,13 @@ a:visited{
 	font-size:30px;
 }
 
+.pbjNavBar img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 65%;
+}
+
 .pbjBarWrapper{
 	cursor:hand;
 	cursor:pointer;
@@ -178,6 +203,7 @@ a:visited{
 }
 
 .pbjBar{
+	position: relative;
 	width: 90%;
 	height: 100%;
 	background-color: black;
@@ -190,6 +216,13 @@ a:visited{
 	height: auto;
 }
 
+.pbjArrow{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60% !important;
+	margin-top:16px;
+}
 
 .meatballBarWrapper{
 	cursor:hand;
@@ -206,19 +239,30 @@ a:visited{
 }
 
 .meatballBar{
+	position: relative;
 	min-width: 40px;
 	height: 100%;
-	/*background-color: #86e2d5;*/
-		background-image: url(../img/transBgBlack.png);
+	background-image: url(../img/transBgBlack.png);
 
 }
 
 .meatballBar img{
 	position: relative;
-	top: 30%;
+	margin-top: 16px;
 	width: auto;
 	height: 70%;
 }
+
+.meatballArrow{
+	top: 0 !important;
+	width: 65% !important;
+	height: auto !important;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 14px;
+}
+
 
 .logoWrapper{
 	position: relative;
@@ -240,7 +284,11 @@ a:visited{
 	text-align: center;
 	padding:20px;
 	width: 150px;
-	background-image:url('../img/transBg.png');
+}
+
+.pbjJumbotron{
+	background-image: url('../img/transBgBlack.png');
+	padding:10px;
 }
 
 .iconWrapper img{
@@ -270,7 +318,7 @@ a:visited{
 }
 
 .meatballContent{
-	font-size:22px;
+	font-size:24px;
 	margin:20px;
 	margin-left:40px;
 	margin-right:0px;
@@ -278,7 +326,7 @@ a:visited{
 	padding:8px;
 	top:5px;
 	left:5px;
-	font-family: 'Cutive Mono', Serif;
+	font-family: 'Italian';
 	font-weight:500;
 }
 
@@ -352,7 +400,7 @@ a:visited{
 	margin:0;
 	width: 100%;
 	color:black;
-	margin-left:25px;
+	margin-left:10px;
 
 }
 
@@ -366,7 +414,7 @@ a:visited{
 	border-left:solid;
 	border-width:1px;
 	border-color:black;
-	font-family: 'Cutive Mono', Serif;
+	font-family: 'Italian';
 }
 
 .pbjPressItem{
@@ -386,7 +434,7 @@ a:visited{
 	font-size:30px;
 	margin:0;
 	width: 100%;
-	color:#BE90D4;
+	color:#eb9532;
 	padding:6px;
 	padding-left: 10px;
 	text-shadow: 1px 1px 2px rgba(20, 40, 20, 1);
@@ -410,7 +458,7 @@ a:visited{
 .meatballLabel{
 	display: block;
 	/*font-family: 'Lato',sans-serif;*/
-	font-family: 'Cutive Mono', Serif;	
+	font-family: 'Italian';	
 }
 
 .meatballInput{

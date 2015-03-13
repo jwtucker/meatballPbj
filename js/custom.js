@@ -6,7 +6,7 @@ $(document).ready(function(){
 	$(".window").hide();
 	$(".meatballMain").hide();
 	$('#home' + currentSite).show();
-	$('body').toggleClass('purple',100)
+	$('body').toggleClass('purple',600)
 
 	checkLinks();
 
@@ -14,7 +14,7 @@ $(document).ready(function(){
 		currentSite = 'Pbj';	
 		$('.meatballMain').fadeOut(1000, function(){
 			$('.window').hide();
-			$(currentSection + currentSite).show();
+			$('#home' + currentSite).show();
 			$('.pbjMain').fadeIn(600);
 			$('body').toggleClass('purple',600);
 		});
@@ -22,13 +22,16 @@ $(document).ready(function(){
 
 	$('.meatballBarWrapper').click(function(){
 		currentSite = 'Meatball';
-		$('body').toggleClass('purple',1000);
+		$('body').toggleClass('purple',600);
 		$('.pbjMain').fadeOut(1000, function(){
 			$('.window').hide();
-			$(currentSection + currentSite).show();
+			$('#home' + currentSite).show();
 			$('.meatballMain').fadeIn(600);
 		});
 	});
+
+	meatballArrowAnimate();
+	pbjArrowAnimate();
 
 
 
@@ -66,4 +69,16 @@ function checkLinks(){
 		$("#contact" + currentSite).show();
 		currentSection = "#contact";
 	});
+}
+
+function meatballArrowAnimate(){
+	$('.meatballArrow').fadeOut(1500,function(){
+		$('.meatballArrow').fadeIn(1500,meatballArrowAnimate());
+	})
+}
+
+function pbjArrowAnimate(){
+	$('.pbjArrow').fadeOut(1500,function(){
+		$('.pbjArrow').fadeIn(1500,pbjArrowAnimate());
+	})
 }
