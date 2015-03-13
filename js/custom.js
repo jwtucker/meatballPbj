@@ -33,8 +33,6 @@ $(document).ready(function(){
 	meatballArrowAnimate();
 	pbjArrowAnimate();
 
-
-
 });
 
 function checkLinks(){

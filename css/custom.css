@@ -254,13 +254,11 @@ a:visited{
 }
 
 .meatballArrow{
-	top: 0 !important;
+	top:0 !important;
 	width: 65% !important;
 	height: auto !important;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 14px;
+	margin-left:8px; 
+	padding-top: 0px;
 }
 
 
@@ -349,6 +347,16 @@ a:visited{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.pbjFooter h1{
+	font-family:"Medula One", Cursive;
+	color: #eb9532;
+	font-size:45px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 }
 
 .pbjHeader{
