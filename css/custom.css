@@ -20,9 +20,12 @@ a:visited{
 }
 
 .purple{
-	/*background-color:#89C4F4;*/
-	background-image: url(../img/pentagon.png);
-	
+	/*background-color:#e6bff4;*/
+	background: url(../img/pbjsky.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .fullWidthWrapper{
@@ -211,25 +214,27 @@ a:visited{
 
 .pbjBar img{
 	position: relative;
-	top: 64px;
 	width: 100%;
 	height: auto;
 }
 
-.pbjArrow{
+.pbjClickHere{
+	position: relative;
+	top:26px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	width: 60% !important;
-	margin-top:16px;
+	width: 90% !important;
+	margin-top:25px;
+	margin-bottom:50px;
 }
 
 .meatballBarWrapper{
 	cursor:hand;
 	cursor:pointer;
 	position: relative;
-	width: 50%;
-	min-width:40px;
+	width: 70%;
+	min-width:60px;
 	height: 280px;
 	padding-top:40px;
 	padding-bottom:40px;
@@ -246,17 +251,22 @@ a:visited{
 }
 
 .meatballBar img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 	position: relative;
 	margin-top: 16px;
 	width: auto;
-	height: 70%;
+	height: 64%;
 }
 
-.meatballArrow{
-	top:0 !important;
-	width: 65% !important;
+.meatballClickHere{
+	display: block;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	top:10px !important;
+	width: 85% !important;
 	height: auto !important;
-	margin-left:8px; 
 	padding-top: 0px;
 }
 

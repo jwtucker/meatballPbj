@@ -32,8 +32,8 @@ $(document).ready(function(){
 		});
 	});
 
-	meatballArrowAnimate();
-	pbjArrowAnimate();
+	meatballClickHereAnimate();
+	pbjClickHereAnimate();
 
 	calculateResize();
 
@@ -81,15 +81,15 @@ function checkLinks(){
 	});
 }
 
-function meatballArrowAnimate(){
-	$('.meatballArrow').fadeOut(1500,function(){
-		$('.meatballArrow').fadeIn(1500,meatballArrowAnimate());
+function meatballClickHereAnimate(){
+	$('.meatballClickHere').fadeOut(1500,function(){
+		$('.meatballClickHere').fadeIn(1500,meatballClickHereAnimate());
 	})
 }
 
-function pbjArrowAnimate(){
-	$('.pbjArrow').fadeOut(1500,function(){
-		$('.pbjArrow').fadeIn(1500,pbjArrowAnimate());
+function pbjClickHereAnimate(){
+	$('.pbjClickHere').fadeOut(1500,function(){
+		$('.pbjClickHere').fadeIn(1500,pbjClickHereAnimate());
 	})
 }
 
