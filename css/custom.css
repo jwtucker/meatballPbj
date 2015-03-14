@@ -109,6 +109,11 @@ a:visited{
 	padding-right: 15%;
 }
 
+#contactPbj{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
 #homePbj{
 	
 }
@@ -485,7 +490,7 @@ a:visited{
 	margin-bottom: 15px;
 	height:32px;
 	font-size:26px;
-	font-family: 'Cutive Mono', Serif;	
+	font-family: 'Italian', Serif;	
 }
 
 .meatballButton{
@@ -498,13 +503,59 @@ a:visited{
 	padding:10px;
 	padding-left: 60px;
 	padding-right: 60px;
-	font-family: 'Cutive Mono', Serif;
+	font-family: 'Italian', Serif;
 	font-weight: 700;
 	margin-top:30px;
 }
 
+.pbjLabel{
+	display: block;
+	background-image:url(../img/transBgBlack.png);
+	/*background-color: black;*/
+	/*font-family: 'Lato',sans-serif;*/
+	font-family: 'Roboto Slab', serif;	
+	color:#eb9532;
+	margin-bottom: 0;
+	margin-top: 20px;
+	font-size:22px;
+	border-color:#eb9532;
+	border-width:1px;
+	text-align: center;
+}
+
+.pbjInput{
+	/*background-image:url(../img/transBgBlackLight.png);*/
+	background-color: #707070;
+	display: block;
+	width: 100%;
+	border:none;
+	/*border-bottom:solid;*/
+	border-width:1px;
+	height:32px;
+	font-size:23px;
+	font-family: 'Roboto Slab', Serif;
+	color:white;	
+}
+
+.pbjButton{
+	background-image:url(../img/transBgBlack.png);
+	/*background-color: black;*/
+	border:none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:40px;
+	padding:10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: 'Medula One', Cursive;
+	font-weight: 700;
+	margin-top:30px;
+	color:#eb9532;
+}
+
 .meatballResponse{
-	font-family: 'Cutive Mono', Serif;
+	font-family: 'Roboto Slab', Serif;
 	font-size:18px;
 }
 
