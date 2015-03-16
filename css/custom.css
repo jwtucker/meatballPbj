@@ -6,11 +6,11 @@
 
 @font-face {
   font-family: 'Italian';
-  src: url('../fonts/Italian.eot');
-  src: url('../fonts/Italian.eot') format('embedded-opentype'),
-       url('../fonts/Italian.woff') format('woff'),
-       url('../fonts/Italian.ttf')  format('truetype'),
-       url('../fonts/Italian.svg#svgFontName') format('svg');
+  src: url('../fonts/italian.eot');
+  src: url('../fonts/italian.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/italian.woff') format('woff'),
+       url('../fonts/italian.ttf')  format('truetype'),
+       url('../fonts/italian.svg#italian') format('svg');
 }
 
 
