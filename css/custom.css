@@ -4,6 +4,15 @@
     src: url(../fonts/italian.otf);
 }
 
+@font-face {
+  font-family: 'Italian';
+  src: url('Italian.eot');
+  src: url('Italian.eot?#iefix') format('embedded-opentype'),
+       url('Italian.woff') format('woff'),
+       url('Italian.ttf')  format('truetype'),
+       url('Italian.svg#svgFontName') format('svg');
+}
+
 
 body{
 	background-color: black;
