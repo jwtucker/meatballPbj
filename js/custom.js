@@ -43,6 +43,10 @@ $(document).ready(function(){
 
 });
 
+$(window).load(function(){
+	calculateResize();
+});
+
 function checkLinks(){
 
 	$('.homeLink').click(function(){
