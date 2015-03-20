@@ -518,6 +518,7 @@ a:visited{
 
 .meatballLabel{
 	display: block;
+	font-size:20px;
 	/*font-family: 'Lato',sans-serif;*/
 	font-family: 'Italian';	
 }
