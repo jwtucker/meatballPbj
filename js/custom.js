@@ -4,7 +4,7 @@ var currentSite = 'Pbj';
 $(document).ready(function(){
 
 	console.log(document.URL.toLowerCase());
-	console.log(document.getElementById("iframe_id").contentWindow.location.href);
+	//console.log(document.getElementById("iframe_id").contentWindow.location.href);
 	console.log(document.referrer);
 
 	if(document.URL.toLowerCase().indexOf('meatball') != -1 || document.referrer.toLowerCase().indexOf('meatball') != -1) currentSite = 'Meatball';
