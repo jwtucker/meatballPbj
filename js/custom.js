@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 	console.log(document.URL.toLowerCase());
 
-	if(document.URL.toLowerCase().indexOf('meatball') != -1) currentSite = 'Meatball';
+	if(document.URL.toLowerCase().indexOf('meatball') != -1 || document.referrer.toLowerCase().indexOf('meatball') != -1) currentSite = 'Meatball';
 
 	$(".window").hide();
 	if(currentSite == 'Pbj'){
