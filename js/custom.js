@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 	console.log(window.location.pathname.toLowerCase());
 
-	if(window.location.pathname.toLowerCase().indexOf('meatball') != -1) currentSite = 'Meatball';
+	if(window.location.href.toLowerCase().indexOf('meatball') != -1) currentSite = 'Meatball';
 
 	$(".window").hide();
 	if(currentSite == 'Pbj'){
