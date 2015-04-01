@@ -3,10 +3,19 @@ var currentSite = 'Pbj';
 
 $(document).ready(function(){
 
+	console.log(window.location.pathname.toLowerCase());
+
+	if(window.location.pathname.toLowerCase().indexOf('meatball') != -1) currentSite = 'Meatball';
+
 	$(".window").hide();
-	$(".meatballMain").hide();
+	if(currentSite == 'Pbj'){
+		$(".meatballMain").hide();		
+	}
+	else{
+		$(".pbjMain").hide();
+	}
 	$('#home' + currentSite).show();
-	$('body').toggleClass('purple',600)
+	if(currentSite == 'Pbj')	$('body').toggleClass('purple',600);
 
 	checkLinks();
 
