@@ -3,7 +3,7 @@ var currentSite = 'Pbj';
 
 $(document).ready(function(){
 
-	console.log(window.location.pathname.toLowerCase());
+	console.log(window.location.href.toLowerCase());
 
 	if(window.location.href.toLowerCase().indexOf('meatball') != -1) currentSite = 'Meatball';
 
