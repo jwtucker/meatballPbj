@@ -3,9 +3,9 @@ var currentSite = 'Pbj';
 
 $(document).ready(function(){
 
-	console.log(window.location.href.toLowerCase());
+	console.log(document.URL.toLowerCase());
 
-	if(window.location.href.toLowerCase().indexOf('meatball') != -1) currentSite = 'Meatball';
+	if(document.URL.toLowerCase().indexOf('meatball') != -1) currentSite = 'Meatball';
 
 	$(".window").hide();
 	if(currentSite == 'Pbj'){
